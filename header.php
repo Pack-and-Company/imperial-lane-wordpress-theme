@@ -19,5 +19,4 @@
 <body <?php body_class(); ?>>
 
 <div id="wrapper">
-
-<?php wp_nav_menu( array('theme_location' => 'primary') ); ?>
+  <h1 class="Imperial">Imperial Lane</h1>
