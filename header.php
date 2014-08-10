@@ -11,8 +11,8 @@
     ?>
   </title>
   <?php wp_head(); ?>
-  <script src="js/lib/cufon.js" type="text/javascript"></script>
-  <script src="js/Ubahn-Light_300.font.js" type="text/javascript"></script>
+  <script src="<?=get_template_directory_uri();?>/js/cufon.js" type="text/javascript"></script>
+  <script src="<?=get_template_directory_uri();?>/js/Ubahn-Light_300.font.js" type="text/javascript"></script>
   <script type="text/javascript"> Cufon.replace('p',{}); </script>
 </head>
 
