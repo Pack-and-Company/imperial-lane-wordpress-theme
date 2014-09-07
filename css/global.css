@@ -61,7 +61,10 @@ div { position: relative; }
 .wp-caption { border:1px solid #666; text-align:center; background:#ccc; padding:10px; margin:10px }
 
 body{
-	text-align: center; color: #fff; font-size: 18px; background-color: #000;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	background-color: #000;
 }
 
 
@@ -90,36 +93,31 @@ a:active{
 
 
 p{
-	margin: 15px 0; line-height: 20px;
+	margin: 15px 0;
+	line-height: 20px;
 }
 
 #wrapper{
-	width: 670px; margin: 0 auto; margin-top: 60px;
+	width: 670px;
+	margin: 0 auto;
+	margin-top: 60px;
 }
-
-	
-
 
 h1.Imperial{
-	width: 100%; height: 252px; background: url(../images/logo.gif) center no-repeat; text-indent: -9999px; margin-bottom: 20px;
+	width: 100%;
+	height: 252px;
+	background: url(../images/logo.gif) center no-repeat;
+	text-indent: -9999px;
+	margin-bottom: 20px;
 }
 
-	#image-container{
-		float: left; margin: 20px 0; padding: 16px 0; border-top: #999 1px solid; border-bottom: #999 1px solid;
+@media screen and (max-width: 360px) {
+	#wrapper {
+		/* 90% because cufon messes with the width */
+		width: 90%;
 	}
 
-	#image-container li{
-		float: left; margin: 0 10px; display: inline;	
+	h1.Imperial {
+		width: 100%;
 	}
-		#image-container li img{
-			border: #000 5px solid;
-			-webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px;
-			-moz-box-shadow: 0px 1px 2px #000; -webkit-box-shadow: 0px 1px 2px #000; box-shadow: 0px 1px 2px #000;
-		}
-		
-	#image-container li.first{
-		margin-left: 0;
-	}
-	#image-container li.last{
-		margin-right: 0;
-	}
+}
